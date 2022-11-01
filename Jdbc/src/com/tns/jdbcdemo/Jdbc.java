@@ -15,7 +15,7 @@ try {
 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/chandan","root","Y1012Jqkhkp");
 
 Statement st = con.createStatement();// step 4 create a statement object
-String query1 = "insert into empl values(7,'manu')";
+String query1 = "insert into empl values(10,'bit')";
 //String query = &quot;select * from emp1&quot;;
 ResultSet rs = st.executeQuery("SELECT * from empl");
 while(rs.next())
