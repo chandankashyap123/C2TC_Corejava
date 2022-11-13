@@ -41,7 +41,6 @@ public class client {
   student = service.findstudentbyId(100);
   service.removestudent(student);
   System.out.println("End of the program / Life Cycle Completed....");
-  
  }
 
 }
